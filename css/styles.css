@@ -72,7 +72,7 @@ li {
 }
 
 .top-container {
-  background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url("/Users/ricardodelgao/Documents/my-apps/barber-website/images/pexels-nick-demou-1319459.jpg");
+  background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url("images/pexels-nick-demou-1319459.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 100px;
