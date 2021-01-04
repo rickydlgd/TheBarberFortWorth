@@ -220,7 +220,6 @@ and (-webkit-min-device-pixel-ratio:2) {
     position: fixed;
     right: 15px;
     top: 1.6rem;
-    bottom: 35rem;
   }
 
   .nav-links {
