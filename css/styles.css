@@ -218,6 +218,8 @@ and (-webkit-min-device-pixel-ratio:2) {
   }
 }
 
+/****************** BURGER MENU STYLES ******************/
+
 .nav-wrapper.show .line1 {
   transform: translate(-10px) rotate(45deg) translate(15px);
 }
@@ -232,10 +234,8 @@ and (-webkit-min-device-pixel-ratio:2) {
 
 .nav-wrapper.show .nav-links {
   transform: translateX(0%);
-  top: 3.5vh;
+  top: 3.1vh;
 }
-
-/****************** BURGER MENU STYLES ******************/
 
 .burger {
   display: none;
