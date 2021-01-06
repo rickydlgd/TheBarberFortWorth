@@ -257,7 +257,7 @@ and (-webkit-min-device-pixel-ratio:2) {
     display: flex;
     position: fixed;
     top: 3vh;
-    left: 14rem;
+    left: 14.3rem;
     height: auto;
     width: 22%;
     flex-direction: row;
