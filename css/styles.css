@@ -1,10 +1,17 @@
 
 /************************ TAG STYLES ************************/
 
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
+  color: #222831;
+  height: 100%;
   margin: 0;
   text-align: center;
-  color: #222831;
+  width: 100%;
 }
 
 @media screen and (max-width:320px) {
@@ -54,6 +61,13 @@ a {
   color: #222831;
 }
 
+/******* This forces Safari to keep original CSS styling for phone number links
+disables the blue text-color *******/
+a[href^=tel] {
+   text-decoration:inherit;
+   color: inherit;
+}
+
 u {
   text-underline-position: under;
 }
@@ -82,7 +96,7 @@ footer {
 /****** CLASS STYLES BEGINNING FROM TOP-CONTAINER ******/
 
 .top-container {
-  background: linear-gradient(rgba(238,238,238,.4), rgba(238,238,238,.4)), url("https://github.com/rickydlgd/TheBarberFortWorth2/blob/main/images/pexels-nick-demou-1319459.jpg?raw=true");
+  background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url("/Users/ricardodelgao/Documents/my-apps/barber-website/images/pexels-nick-demou-1319459.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 100px;
