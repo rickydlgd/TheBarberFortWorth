@@ -400,6 +400,14 @@ and (-webkit-min-device-pixel-ratio:2) {
   }
 }
 
+.barber-address-link {
+  color: #eeeeee;
+}
+
+.barber-address-link:hover {
+  text-decoration: underline;
+}
+
 /****************** BOTTOM CONTAINER STYLES ******************/
 
 .bottom-container {
