@@ -1,6 +1,5 @@
 
-// ****** This function makes sure to toggle the burger style menu when clicked on and also makes sure that the entire nav bar is toggled when a button is clicked on.
-
+// This function makes sure to toggle the burger style menu when clicked on and also makes sure that the entire nav bar is toggled when a button is clicked on.
 document.addEventListener('DOMContentLoaded', nav)
 function nav(){
     const burger = document.querySelector('.burger');
@@ -22,8 +21,7 @@ function nav(){
     });
 };
 
-// ****** These 3 animate the page when a button from the navigation bar is clicked on.
-
+// These 3 animate the page when a button from the navigation bar is clicked on.
 $("#services-button").click(function() {
   $("html, body").animate({
     scrollTop: $("#services").offset().top
@@ -42,8 +40,7 @@ $("#contact-button").click(function() {
   }, 1000);
 });
 
-// ****** These 3 animate the page when a button from the footer-links are clicked on.
-
+// These 3 animate the page when a button from the footer-links are clicked on.
 $("#services-button-footer").click(function() {
   $("html, body").animate({
     scrollTop: $("#services").offset().top
@@ -61,3 +58,14 @@ $("#contact-button-footer").click(function() {
     scrollTop: $("#contact").offset().top
   }, 1000);
 });
+
+// Adds functionality for barber location within Contact Us page
+function myNavFunc(){
+    // If it's an iPhone..
+    if( (navigator.platform.indexOf("iPhone") != -1)
+        || (navigator.platform.indexOf("iPod") != -1)
+        || (navigator.platform.indexOf("iPad") != -1))
+         window.open("maps://goo.gl/maps/AYzoog3w88NFtM5cA");
+    else
+         window.open("https://goo.gl/maps/AYzoog3w88NFtM5cA");
+}
