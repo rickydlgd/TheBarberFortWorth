@@ -82,7 +82,7 @@ footer {
 /****** CLASS STYLES BEGINNING FROM TOP-CONTAINER ******/
 
 .top-container {
-  background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url("/Users/ricardodelgao/Documents/my-apps/barber-website/images/pexels-nick-demou-1319459.jpg");
+  background: linear-gradient(rgba(238,238,238,.4), rgba(238,238,238,.4)), url("https://github.com/rickydlgd/TheBarberFortWorth2/blob/main/images/pexels-nick-demou-1319459.jpg?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 100px;
