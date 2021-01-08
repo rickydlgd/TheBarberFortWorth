@@ -14,7 +14,7 @@ body {
   width: 100%;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:480px) {
   body {
     margin: 0;
   }
@@ -96,6 +96,7 @@ footer {
 /****** CLASS STYLES BEGINNING FROM TOP-CONTAINER ******/
 
 .top-container {
+  /* For Github Pages use this background description below */
   background: linear-gradient(rgba(238,238,238,.4), rgba(238,238,238,.4)), url("https://github.com/rickydlgd/TheBarberFortWorth2/blob/main/images/pexels-nick-demou-1319459.jpg?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
