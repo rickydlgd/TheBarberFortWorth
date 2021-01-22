@@ -6,7 +6,7 @@ function nav(){
     const nav = document.querySelector('.nav-wrapper');
     const services = document.querySelector('#services-button')
     const about = document.querySelector('#about-button')
-    const contact = document.querySelector('#contact-button')
+    const location = document.querySelector('#location-button')
     burger.addEventListener('click', ()=>{
         nav.classList.toggle('show')
     });
@@ -34,9 +34,9 @@ $("#about-button").click(function() {
   }, 1000);
 });
 
-$("#contact-button").click(function() {
+$("#location-button").click(function() {
   $("html, body").animate({
-    scrollTop: $("#contact").offset().top
+    scrollTop: $("#location").offset().top
   }, 1000);
 });
 
@@ -53,9 +53,9 @@ $("#about-button-footer").click(function() {
   }, 1000);
 });
 
-$("#contact-button-footer").click(function() {
+$("#location-button-footer").click(function() {
   $("html, body").animate({
-    scrollTop: $("#contact").offset().top
+    scrollTop: $("#location").offset().top
   }, 1000);
 });
 
